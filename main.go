@@ -25,7 +25,7 @@ var feedDefs = []feed{
 	{"Lobsters", "https://lobste.rs/rss", false},
 	{"Go News", "https://golangnews.com/index.xml", false},
 	{"NPR", "https://www.npr.org/rss/rss.php?id=1002", false},
-	{"WSJ Markets", "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"},
+	{"WSJ Markets", "https://feeds.a.dj.com/rss/RSSMarketsMain.xml", false},
 }
 
 func index(w http.ResponseWriter, r *http.Request) {
